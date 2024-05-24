@@ -4,15 +4,6 @@ from PIL import Image
 from utils import get_hsv_range_from_rgb
 
 
-# Define the RGB color values to detect the color
-color = (0, 0, 255)
-
-import cv2
-import numpy as np
-from PIL import Image
-from utils import get_hsv_range_from_rgb
-
-
 def detect_color(color=(0, 0, 255)):
     """
     Detect the specified color in the webcam feed and draw a bounding box around it.
