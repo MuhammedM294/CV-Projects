@@ -21,3 +21,12 @@ This project demonstrates how to detect a specific color in a video stream using
 
 ## Usage
 To run the color detection script, ensure you have the requirements installed. You can specify the color you want to detect by changing the `color_to_detect` variable.
+
+## Running the script
+
+To run the script, execute the following command:
+```bash
+python3 main.py
+```
+
+
