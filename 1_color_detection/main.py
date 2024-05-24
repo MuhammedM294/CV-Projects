@@ -14,6 +14,21 @@ from utils import get_hsv_range_from_rgb
 
 
 def detect_color(color=(0, 0, 255)):
+    """
+    Detect the specified color in the webcam feed and draw a bounding box around it.
+
+    params:
+    -------
+
+    color: tuple
+        The RGB color to detect in the webcam feed.
+
+    returns:
+    --------
+
+    None
+
+    """
     # Initialize the webcam feed. 0 is the default camera
     vid = cv2.VideoCapture(0)
 
