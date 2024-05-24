@@ -19,14 +19,24 @@ This project demonstrates how to detect a specific color in a video stream using
 
 **4. Pillow(PIL)**
 
+
 ## Usage
-To run the color detection script, ensure you have the requirements installed. You can specify the color you want to detect by changing the `color_to_detect` variable.
+To run the color detection script, ensure you have the required packages installed. You can specify the color you want  in **RGB** format (red, green, blue) to detect using command-line arguments.
 
-## Running the script
+## Running the Script
 
-To run the script, execute the following command:
+To run the script with a specific color, use the following command format:
+
 ```bash
-python3 main.py
+python3 main.py --r <red_value> --g <green_value> --b <blue_value>
 ```
+
+For example, to detect a pure blue color:
+
+```bash
+python3 main.py --r 0 --g 0 --b 255
+```
+
+
 
 
