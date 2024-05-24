@@ -11,20 +11,21 @@ This project demonstrates how to detect a specific color in a video stream using
 
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/MuhammedM294/cv-projects/blob/main/LICENSE) file for details.
 
+
 ## Contributions
 
-Contributions are welcome! If you have any ideas, suggestions, or improvements, feel free to open an issue or create a pull request. Please ensure your contributions align with the project's goals and adhere to the existing code style.
+Contributions are welcome! If you have ideas, suggestions, or improvements, please open an issue or create a pull request. 
 
 ### How to Contribute
 
-1. **Fork the repository**: Click the "Fork" button at the top right of this page to create a copy of this repository in your GitHub account.
-2. **Clone the forked repository**: Clone your forked repository to your local machine using `git clone https://github.com/MuhammedM294/cv-projects.git`.
-3. **Create a new branch**: Create a new branch for your feature or bug fix using `git checkout -b feature-name`.
-4. **Make your changes**: Implement your changes and commit them with clear and concise commit messages.
-5. **Push to your branch**: Push your changes to your forked repository using `git push origin feature-name`.
-6. **Open a pull request**: Navigate to the original repository and open a pull request from your forked repository's branch.
+1. **Fork the repository**.
+2. **Clone your fork**: `git clone https://github.com/MuhammedM294/cv-projects.git`.
+3. **Create a new branch**: `git checkout -b feature-name`.
+4. **Make your changes** and commit them.
+5. **Push to your branch**: `git push origin feature-name`.
+6. **Open a pull request** in the original repository.
 
-Please ensure your contributions align with the project's goals and follow the existing code style.
+Please ensure your contributions align with the project's goals and adhere to the existing code style.
 
 ---
 
