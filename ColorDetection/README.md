@@ -10,5 +10,14 @@ This project demonstrates how to detect a specific color in a video stream using
 6. **Draw Bounding Boxes**: Bounding boxes are drawn around the detected areas in the original frame.
 7. **Display Result**: The resulting frame with bounding boxes is displayed in a window.
 
-### Usage
-To run the color detection script, ensure you have OpenCV and numpy installed. You can specify the color you want to detect by changing the `color_to_detect` variable.
+## Requirements
+**1. Python 3.x** 
+
+**2. OpenCV**
+
+**3. Numpy**
+
+**4. Pillow(PIL)**
+
+## Usage
+To run the color detection script, ensure you have the requirements installed. You can specify the color you want to detect by changing the `color_to_detect` variable.
