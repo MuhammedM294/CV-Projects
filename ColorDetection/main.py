@@ -1,4 +1,5 @@
 import cv2
+import argparse
 import numpy as np
 from PIL import Image
 from utils import get_hsv_range_from_rgb
@@ -72,8 +73,24 @@ def detect_color(color=(0, 0, 255)):
 
 
 if __name__ == "__main__":
+    # Set up argument parser
+    parser = argparse.ArgumentParser(
+        description="Detect a specific color in the webcam feed."
+    )
+    parser.add_argument(
+        "--r", type=int, default=0, help="Red component of the color (0-255)"
+    )
+    parser.add_argument(
+        "--g", type=int, default=0, help="Green component of the color (0-255)"
+    )
+    parser.add_argument(
+        "--b", type=int, default=255, help="Blue component of the color (0-255)"
+    )
 
-    # Define the RGB color values to detect blue color
-    color_to_detect = (0, 0, 255)
+    args = parser.parse_args()
+
+    # Define the RGB color values to detect from command-line arguments
+    color_to_detect = (args.r, args.g, args.b)
+
     # Call the detect_color function with the specified color
     detect_color(color_to_detect)
