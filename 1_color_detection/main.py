@@ -71,10 +71,9 @@ def detect_color(color=(0, 0, 255)):
     cv2.destroyAllWindows()
 
 
-# Define the RGB color values to detect the color
-color_to_detect = (0, 0, 255)
-
-
 if __name__ == "__main__":
+
+    # Define the RGB color values to detect blue color
+    color_to_detect = (0, 0, 255)
     # Call the detect_color function with the specified color
     detect_color(color_to_detect)
