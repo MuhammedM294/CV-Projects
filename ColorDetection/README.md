@@ -6,9 +6,8 @@ This project demonstrates how to detect a specific color in a video stream using
 2. **Convert Frame to HSV**: Each frame captured from the webcam is converted from the BGR color space (used by OpenCV) to the HSV color space.
 3. **Define Color Range**: The user specifies an RGB color to detect. This RGB color is converted to an HSV range with a specified tolerance.
 4. **Create Mask**: A mask is created to isolate the specified color within the HSV range.
-5. **Find Contours**: Contours are found within the mask to identify the areas where the specified color is detected.
-6. **Draw Bounding Boxes**: Bounding boxes are drawn around the detected areas in the original frame.
-7. **Display Result**: The resulting frame with bounding boxes is displayed in a window.
+5. **Draw Bounding Boxes**: Bounding boxes are drawn around the detected areas in the original frame.
+6. **Display Result**: The resulting frame with bounding boxes is displayed in a window.
 
 ## Requirements
 **1. Python 3.x** 
