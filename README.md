@@ -5,7 +5,7 @@ This repository contains a collection of computer vision projects implemented in
 ## Projects List
 
 #### 1. [Color Detection with OpenCV using the HSV Color Space](https://github.com/MuhammedM294/cv-projects/tree/main/ColorDetection) [Basic]
-This project demonstrates how to detect a specific color in a video stream using OpenCV. The detection is performed in the HSV color space, which is more robust for color detection tasks compared to the RGB color space.
+This project demonstrates how to detect a specific color in a video stream using OpenCV. The detection is performed in the HSV color space, which is more robust and intuitive for color detection and manipulation tasks compared to the RGB color space.
 
 ## License
 
