@@ -8,7 +8,6 @@ This repository contains a collection of computer vision projects implemented in
 This project demonstrates how to detect a specific color in a video stream using OpenCV. The detection is performed in the HSV color space, which is more robust and intuitive for color detection and manipulation tasks compared to the RGB color space.
 
 
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/MuhammedM294/cv-projects/blob/main/LICENSE) file for details.
