@@ -7,9 +7,7 @@ This repository contains a collection of computer vision projects implemented in
 #### 1. [Color Detection using the HSV Color Space with OpenCV](https://github.com/MuhammedM294/cv-projects/tree/main/ColorDetection) [Basic]
 This project demonstrates how to detect a specific color in a video stream using OpenCV. The detection is performed in the HSV color space, which is more robust and intuitive for color detection and manipulation tasks compared to the RGB color space.
 
-#### 2. [Hand Detection and Tracking with MediaPipe and OpenCV](https://github.com/MuhammedM294/CV-Projects/tree/main/HandTracking) [Basic]
 
-This project demonstrates how to detect and track hands in a video stream using MediaPipe and OpenCV. The project leverages the MediaPipe package, a framework for building multimodal (video, audio, etc.) applied machine learning pipelines, which provides robust hand detection and tracking capabilities.
 
 ## License
 
